@@ -9,10 +9,41 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@metaplex-foundation/mpl-bubblegum": "^5.0.2",
+    "@metaplex-foundation/umi": "^1.5.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.5.1",
+    "@neondatabase/serverless": "^1.0.2",
+    "@react-native-async-storage/async-storage": "^3.0.1",
+    "@react-navigation/bottom-tabs": "^7.15.3",
+    "@react-navigation/native": "^7.1.31",
+    "@react-navigation/stack": "^7.8.2",
+    "@shopify/flash-list": "^2.2.2",
+    "@solana-mobile/mobile-wallet-adapter-protocol": "^2.2.5",
+    "@solana-mobile/mobile-wallet-adapter-protocol-web3js": "^2.2.5",
+    "@solana-mobile/wallet-adapter-mobile": "^2.2.5",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/web3.js": "^1.98.4",
+    "@supabase/supabase-js": "^2.98.0",
+    "async-storage": "^0.1.0",
     "expo": "~55.0.4",
     "expo-status-bar": "~55.0.4",
+    "lottie-react-native": "^7.3.6",
+    "nativewind": "^4.2.2",
+    "pg": "^8.19.0",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-native": "0.83.2",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-reanimated": "^4.2.2",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "^4.24.0",
+    "react-native-url-polyfill": "^3.0.0"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/pg": "^8.18.0",
+    "@types/react": "^19.2.14",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.9.3"
+  }
 }
